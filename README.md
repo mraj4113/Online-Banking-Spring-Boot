@@ -131,7 +131,13 @@ Before launching, make sure your machine has the following tools installed globa
      ./mvnw spring-boot:run
      ```
 Use code with caution.On Windows Command Prompt / PowerShell:cmd./mvnw.cmd spring-boot:run
-Use code with caution.The server container will start successfully up on port http://localhost:8080.🎨 Step 2: Initialize and Run the React-Redux Frontend UIOpen a new, separate system terminal window and change directory into the client UI folder:   bash cd demo-bank-redux    Cleanly install the required Node node modules listed within the package configuration:   bash npm install    Launch the Webpack server compiler engine to start the local interface instance:   bash npm start    Your default internet browser will immediately launch the frontend client portal on http://localhost:3000. The UI will now safely hit endpoints pointing back to your running Java server at port 8080.🧪 Testing the Complete EcosystemBackend Unit CoverageTo evaluate backend unit endpoints, run the Maven validation phase inside the backend directory:bash ./mvnw test Frontend UI VerificationTo run frontend components linting checks or mock unit actions inside the React project directory:bash npm test 📄 License and ComplianceThis system code configuration is distributed openly under the MIT License. Check out the repository's root LICENSE file context details for extensive open-source redistribution clearance rules.
+Use code with caution.The server container will start successfully up on port http://localhost:8080.
+
+🎨 Step 2: Initialize and Run the React-Redux Frontend UIOpen a new, separate system terminal window and change directory into the client UI folder:   bash cd demo-bank-redux    Cleanly install the required Node node modules listed within the package configuration:   bash npm install    Launch the Webpack server compiler engine to start the local interface instance:   bash npm start    Your default internet browser will immediately launch the frontend client portal on http://localhost:3000. The UI will now safely hit endpoints pointing back to your running Java server at port 8080.
+
+🧪 Testing the Complete EcosystemBackend Unit CoverageTo evaluate backend unit endpoints, run the Maven validation phase inside the backend directory:bash ./mvnw test Frontend UI VerificationTo run frontend components linting checks or mock unit actions inside the React project directory:bash npm test 
+
+📄 License and ComplianceThis system code configuration is distributed openly under the MIT License. Check out the repository's root LICENSE file context details for extensive open-source redistribution clearance rules.
 ***
 
 Would you like me to expand this file further by providing a **Mock Database SQL Schema Script** to help users set up their tables instantly, or would you like to add an **API Endpoint Documentation Table** mapping out all available frontend-to-backend payload paths?
